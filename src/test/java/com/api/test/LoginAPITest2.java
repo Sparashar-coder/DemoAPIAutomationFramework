@@ -29,6 +29,7 @@ public class LoginAPITest2 {
 	Assert.assertTrue(loginResponse.getToken()!=null);
 //	Assert.assertEquals(loginResponse.getEmail(), "admin456@gmail.com");
 	Assert.assertEquals(loginResponse.getId(), 2277);
+	Assert.assertEquals(loginResponse.getId(), 2288);
 	
 	
 	
