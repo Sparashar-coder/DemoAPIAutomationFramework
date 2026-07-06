@@ -7,6 +7,7 @@ import com.api.models.request.SIgnUprequest;
 
 import io.restassured.response.Response;
 
+
 public class AuthService extends baseService{
 	
 	private final static String BASE_PATH = "/api/auth/";
